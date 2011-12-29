@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-filec
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 This is a "translation" of the filecontents documentation.
@@ -27,7 +25,6 @@ This is a "translation" of the filecontents documentation.
 %doc %{_texmfdistdir}/doc/latex/translation-filecontents-de/filecontents-de.dtx
 %doc %{_texmfdistdir}/doc/latex/translation-filecontents-de/filecontents-de.ins
 %doc %{_texmfdistdir}/doc/latex/translation-filecontents-de/filecontents-de.pdf
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -38,5 +35,3 @@ This is a "translation" of the filecontents documentation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
