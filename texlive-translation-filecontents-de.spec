@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-translation-filecontents-de
 Version:	20110918
-Release:	7
+Release:	8
 Summary:	German version of filecontents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/filecontents/de
