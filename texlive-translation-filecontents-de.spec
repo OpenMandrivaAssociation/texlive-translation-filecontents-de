@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-translation-filecontents-de
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	German version of filecontents
 Group:		Publishing
