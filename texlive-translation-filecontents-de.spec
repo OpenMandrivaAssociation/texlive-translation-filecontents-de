@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-translation-filecontents-de
-Version:	20180303
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	German version of filecontents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/filecontents/de
