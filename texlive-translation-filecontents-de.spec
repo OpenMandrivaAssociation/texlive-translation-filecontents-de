@@ -1,6 +1,6 @@
 Name:		texlive-translation-filecontents-de
 Version:	24010
-Release:	1
+Release:	2
 Summary:	German version of filecontents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/filecontents/de
