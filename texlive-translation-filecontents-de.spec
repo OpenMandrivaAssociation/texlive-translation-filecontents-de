@@ -3,7 +3,7 @@ Version:	24010
 Release:	2
 Summary:	German version of filecontents
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/translations/filecontents/de
+URL:		https://www.ctan.org/tex-archive/info/translations/filecontents/de
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-filecontents-de.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-filecontents-de.doc.r%{version}.tar.xz
